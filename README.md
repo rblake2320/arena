@@ -1,20 +1,22 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Verified Voter Arena
 
-# Run and deploy your AI Studio app
+A lightweight full-stack TypeScript app for exploring candidate races, ads, and challenge activity.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/ab152dd8-f007-4251-b08a-fa2fef504f05
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+## Quick start
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Run the app:
+   ```bash
+   npm run dev
+   ```
+3. Open `http://localhost:3000`.
+
+## Scripts
+
+- `npm run dev` — run the Express + Vite dev server.
+- `npm run lint` — type-check all TypeScript.
+- `npm test` — run unit tests.
+- `npm run build` — build the client bundle.
